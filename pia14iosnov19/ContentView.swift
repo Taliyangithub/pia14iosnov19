@@ -15,8 +15,13 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Tjena")
             Text("123")
-        }
-        .padding()
+            VStack
+            {
+                Text("My Function")
+            }
+            
+            .padding()
+            .background(Color.pink) }
     }
 }
 
